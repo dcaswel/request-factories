@@ -19,7 +19,7 @@ use Worksome\RequestFactories\RequestFactory;
  * @mixin RequestFactory
  * @mixin TValue
  */
-final readonly class HigherOrderRequestFactory
+final class HigherOrderRequestFactory
 {
     public function __construct(private RequestFactory $requestFactory)
     {

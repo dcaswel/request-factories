@@ -10,7 +10,7 @@ use Worksome\RequestFactories\Contracts\Finder;
 use Worksome\RequestFactories\Exceptions\CouldNotLocateRequestFactoryException;
 use Worksome\RequestFactories\RequestFactory;
 
-final readonly class Map
+final class Map
 {
     public function __construct(private Finder $finder)
     {
