@@ -13,7 +13,7 @@ use IteratorAggregate;
 use SplFileInfo;
 use Traversable;
 
-final readonly class Result implements Arrayable, ArrayAccess, IteratorAggregate
+final class Result implements Arrayable, ArrayAccess, IteratorAggregate
 {
     public function __construct(private array $attributes)
     {

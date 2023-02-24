@@ -10,7 +10,7 @@ use Worksome\RequestFactories\Contracts\Actions\CreatesFactoryResult;
 use Worksome\RequestFactories\Contracts\Actions\MergesFactoryIntoRequest;
 use Worksome\RequestFactories\RequestFactory;
 
-final readonly class MergeFactoryIntoRequest implements MergesFactoryIntoRequest
+final class MergeFactoryIntoRequest implements MergesFactoryIntoRequest
 {
     public function __construct(private CreatesFactoryResult $createFactoryResult)
     {

@@ -2,8 +2,7 @@
 
 Test requests in Laravel without all the boilerplate.
 
-[![Unit Tests](https://github.com/worksome/request-factories/actions/workflows/run-tests.yml/badge.svg)](https://github.com/worksome/request-factories/actions/workflows/run-tests.yml)
-[![PHPStan](https://github.com/worksome/request-factories/actions/workflows/phpstan.yml/badge.svg)](https://github.com/worksome/request-factories/actions/workflows/phpstan.yml)
+_Note: This is a fork of worksome/request-factories so you can still run it on PHP 8.1. If you are running PHP 8.2 or higher, you should use that._
 
 > 💡 Psst. Although our examples use Pest PHP, this works just as well in PHPUnit.
 
@@ -51,7 +50,7 @@ Soooooo much nicer. And all thanks to Request Factories. Let's dive in...
 You can install the package as a developer dependency via Composer:
 
 ```bash
-composer require --dev worksome/request-factories 
+composer require --dev dcaswel/request-factories 
 ```
 
 ## Usage
